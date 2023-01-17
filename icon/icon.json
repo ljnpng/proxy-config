@@ -13,6 +13,10 @@
         {
             "name": "OpenAI",
             "url": "https://raw.githubusercontent.com/ljnpng/proxy-config/main/icon/openai.png"
+        },
+        {
+            "name": "Console",
+            "url": "https://raw.githubusercontent.com/ljnpng/proxy-config/main/icon/console.png"
         }
     ]
 }
