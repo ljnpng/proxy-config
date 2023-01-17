@@ -9,6 +9,10 @@
         {
             "name": "Terminal",
             "url": "https://raw.githubusercontent.com/ljnpng/proxy-config/main/icon/terminal.png"
+        },
+        {
+            "name": "OpenAI",
+            "url": "https://raw.githubusercontent.com/ljnpng/proxy-config/main/icon/openai.svg"
         }
     ]
 }
