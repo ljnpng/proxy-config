@@ -1,0 +1,14 @@
+{
+    "name": "Personal",
+    "description": "By Neo Lyou",
+    "icons": [
+        {
+            "name": "Jellyfin",
+            "url": "https://raw.githubusercontent.com/ljnpng/proxy-config/main/icon/jellyfin.png"
+        },
+        {
+            "name": "Terminal",
+            "url": "https://raw.githubusercontent.com/ljnpng/proxy-config/main/icon/terminal.png"
+        }
+    ]
+}
