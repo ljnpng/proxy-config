@@ -1,0 +1,13 @@
+#!name = Spotify歌词翻译 - deepl
+#!desc = 将Spotify的外语歌词翻译为简体中文，点击下面的地址查看使用方法。
+#!openUrl = https://gitlab.com/lodepuly/vpn_tool/-/blob/main/Resource/Markdown/Spotify/README.md
+#!author = app2smile
+#!homepage = https://github.com/ljnpng/proxy-config
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Spotify.png
+#!input = deepl_auth_key
+
+[Script]
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://gist.githubusercontent.com/ljnpng/0a1c8b6461576d71b1c9292ccd8a68c3/raw/288ce5466132d1c141b2a1720abfca99979d9b23/spotify-lyric-deepl.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
+
+[Mitm]
+hostname = spclient.wg.spotify.com
