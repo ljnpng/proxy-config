@@ -7,7 +7,7 @@
 #!input = deepl_auth_key
 
 [Script]
-http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://gist.githubusercontent.com/ljnpng/0a1c8b6461576d71b1c9292ccd8a68c3/raw/288ce5466132d1c141b2a1720abfca99979d9b23/spotify-lyric-deepl.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
+http-response ^https:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/ script-path = https://github.com/ljnpng/proxy-config/raw/main/js/spotify-lyric-deepl.js, requires-body = true, binary-body-mode = true, tag = Spotify歌词翻译
 
 [Mitm]
 hostname = spclient.wg.spotify.com
