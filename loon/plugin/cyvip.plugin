@@ -1,0 +1,15 @@
+#!name = Spotify歌词翻译 - deepl
+#!desc = 将Spotify的外语歌词翻译为简体中文
+#!openUrl = https://github.com/ljnpng/proxy-config/tree/main/loon/plugin
+#!author = app2smile
+#!homepage = https://github.com/ljnpng/proxy-config
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Spotify.png
+#!input = deepl_auth_key
+
+[Script]
+
+http-response ^https?:\/\/biz\.cyapi\.cn\/(membership_rights|v2\/user)  script-path = https://raw.githubusercontent.com/ljnpng/proxy-config/main/js/caiyun_svip.js,
+ requires-body = true, binary-body-mode = true, tag = caiyun svip
+
+[Mitm]
+hostname = biz.cyapi.cn
