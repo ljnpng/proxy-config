@@ -1,0 +1,13 @@
+#!name = chatgpt-mac
+#!desc = chatgpt  mac 
+#!openUrl = https://github.com/ljnpng/proxy-config/tree/main/loon/plugin
+#!author = neo
+#!homepage = https://github.com/ljnpng/proxy-config
+#!icon = https://gitlab.com/lodepuly/iconlibrary/-/raw/master/App_icon/120px/Spotify.png
+
+[Script]
+http-response ^https://ab\.chatgpt\.com/v1/ script-path=https://path/to/your/rewrite.js, requires-body=true, tag=ChatGPT Rewrite
+
+[MITM]
+hostname = ab.chatgpt.com
+
